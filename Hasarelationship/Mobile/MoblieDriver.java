@@ -2,9 +2,9 @@ package Hasarelationship.Mobile;
 
 public class MoblieDriver {
     public static void main(String[] args) {
-        Battery bate= new Battery("7000mah","Lithium");
+      
 
-        Mobile mob= new Mobile("Poco", "Integrated",2,bate);
+        Mobile mob= new Mobile("Poco", "Integrated",2,new Battery("7000mah","Lithium"));
 
 
         System.out.println(mob.brand);
